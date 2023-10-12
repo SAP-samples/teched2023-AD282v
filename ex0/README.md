@@ -1,65 +1,93 @@
-# AD162 - Develop Mobile Apps with SAP Build Code, Access them via SAP Mobile Start
+# Pre-Requisites
 
-## Description
+**Before starting on the session exercises, please make sure that you have your BTP subaccount created in `US East (VA) - AWS [cf-us10]` region.**
 
-Accelerate development by using SAP Build Code to consume a SAP Cloud Application Programming (CAP) Model service for mobile development. Build a native, cross-platform mobile application using mobile development kit and bring all of your work together on the SAP Mobile Start app - the launchpad for mobile apps from SAP.
-
-## Requirements
-
-In order to complete the session exercises below, first complete the [pre-requisites](exercises/ex0/README.md).
+  ![BTP Cockpit](/images/ex0/img-0.png)
 
 
-## Use Case
-
-(//TODO: Add Image here)
-
-### ACME Apps Portfolio
-- Fiori Elements App (for call center reps)
-- SAP Mobile Start (for employee details)
-- MDK-based Native App (for technicians)
-
-### Incident Creation (AD161)
-- Mary reports an issue with her ACME electronic device.
-- Raj, a support representative, logs the incident using the Incident Management app.
-- Raj records Mary's contact info, issue details, and conversation notes.
-
-### Incident Resolution (AD162)
-- Anna, a technician, uses the ACME Technician Incident Management app.
-- Anna views open tasks and those assigned to her.
-- Anna selects a task to view the details.
-- Anna assigns the task to herself and updates its status (e.g., "In Process").
-- Anna travels to Mary's location for on-site service.
-- Upon fixing the issue, Anna uploads a resolution image and adds comments.
-- Anna requests Mary's digital signature for incident closure.
-- Anna, being a traveling technician, accesses payroll and org news via the SAP Mobile Start app. (//TODO Thilo, Thomas, Dennis to review)
-- She easily launches the Incident Management app from SAP Mobile Start.
+## Index
+| Pre-Requisite Step | Title                                             | Estimated Time (mins)       | Comments                       |
+| ------------------ | ------------------------------------------------ | -------------------------- | ------------------------------ |
+| 1                  | [Get a Free Account on SAP BTP Trial](https://developers.sap.com/tutorials/hcp-create-trial-account.html) | 15                    | Ensure you have created your subaccount in the `US East (VA) - AWS [cf-us10]` region      |
+| 2                  | [Add SAP HANA Cloud to your existing BTP trial](#add-sap-hana-cloud-to-your-existing-btp-trial)    | 15                         | Follow the provided guide if the entitlements are missing. |
+| 3                  | [Set Up SAP Business Application Studio for Development](https://developers.sap.com/tutorials/appstudio-onboarding.html) | 10          | You will create two spaces in upcoming exercises.  |
+| 4                  | [Set Up SAP Build Work Zone, standard edition & SAP Mobile Start App](https://developers.sap.com/mission.cp-starter-digitalexp-portal.html)      | 35-50                          | You can skip the [Add a URL App to Your Site](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-url-applaunchpad.html) if you prefer. |
+| 5                  | [Access SAP Mobile Services](https://developers.sap.com/tutorials/fiori-ios-hcpms-setup.html)       | 5                         | Review configuration steps.   |
+| 6                  | [Create Server Side App on SAP Mobile Services](#create-server-side-app-on-sap-mobile-services)       | 15                         | Review configuration steps.   |
+| 7                  | [Download SAP Mobile Services Client on your mobile device](#download-sap-mobile-services-client-on-your-mobile-device) | 5          | Check device compatibility.    |
 
 
-## Exercises
+### Add SAP HANA Cloud to your existing BTP trial
 
-These are the steps of our hands-on session:
+1. In the [SAP BTP trial account](https://account.hanatrial.ondemand.com/trial), navigate to your subaccount.
 
-- [Exercise 1 - Deploy a CAP Business Service to SAP Business Technology Platform](exercises/ex1/README.md)    
-- [Exercise 2 - Create an application from the MDK template](exercises/ex2/README.md)
-- [Exercise 3 - Enhance the generated Product List and add a Filter Bar on the Page](exercises/ex3/README.md)
-- [Exercise 4 - Upload a Media to Product Entity](exercises/ex4/README.md)
-- [Exercise 5 - Use Side Drawer Navigation for your application](exercises/ex5/README.md)
-- [Exercise 6 - Add a User Menu Section to the application](exercises/ex5/README.md)
+2. Click on **Entitlements** on the left-hand side menu.
+  
+    ![BTP Cockpit](/images/ex0/img-1.png)
 
-## How to obtain support
+3. 	Make sure you have entitlements for the services (and service plans) listed here:
 
-Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
+    - SAP HANA Cloud:  `hana-cloud-connection`, `hana`, and `relational-data-lake`
+    -	SAP HANA Schemas & HDI Containers: `hdi-shared`, `schema`, `sbss`, and `securestore`
 
-## Additional Support and Learning Resources
+    ![BTP Cockpit](/images/ex0/img-1.1.png)
 
-- Visit us in the [SAP Community](https://community.sap.com/topics/mobile-technology)
+    > **If you already have the required entitlements added in your trial account, continue with step 8 to create your trial instance of SAP HANA Cloud, SAP HANA database.
+    If you don't have the required entitlements in your trial account, continue with next step.**
 
-- Ask a question in the [MDK Q&A community](https://answers.sap.com/tags/73555000100800001081)
+4. If you do not have any of the entitlements above, you need to add them to your account. Please follow the [**Deploy SAP HANA Cloud tutorial**](https://developers.sap.com/tutorials/hana-cloud-deploying.html) on developers.sap.com.
 
-- Continue your learning with additional [MDK tutorials](https://help.sap.com/doc/f53c64b93e5140918d676b927a3cd65b/Cloud/en-US/docs-en/guides/getting-started/mdk/overview.html#tutorials)
 
-- Learn more about CAP by [visting the official documentation](https://cap.cloud.sap/docs/) and [with these additional resources](https://cap.cloud.sap/docs/resources/) 
+|[Back To Index](#index) |
+| --- |
 
-## License
-(//TODO: Check if the license is appropraite)
-Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
+
+### Create Server Side App on SAP Mobile Services
+
+1. **Open** your SAP Mobile Services Admin UI.
+
+    > Bookmark the **SAP Mobile Services Admin UI URL** for quick access as you will visit this page again for adding a destination. 
+
+2. click **Create new app** on the `Home` page or navigate to **Mobile Applications | Native/MDK | New**.
+
+    ![BTP Cockpit](/images/ex0/img-2.6.png)
+
+    > Please adhere to the [limitations on trial landscape (lite)](https://help.sap.com/doc/f53c64b93e5140918d676b927a3cd65b/Cloud/en-US/docs-en/guides/getting-started/account.html#service-plans) while creating an app. 
+
+3. In the **Basic Info** step, provide the required information and click **Next**.
+
+    | Field | Value |
+    |----|----|
+    | `ID` | com.sap.teched23.ad282v |
+    | `Name` | SAP MDK App - TechEd 2023 AD282v |
+
+    ![BTP Cockpit](/images/ex0/img-2.7.png) //Change
+
+4. In the **XSUAA Settings** step, continue with the default settings and click **Next** to navigate to further steps.
+
+    ![BTP Cockpit](/images/ex0/img-2.8.png) 
+
+5.  In the **Assign Features** step, choose **Mobile Development Kit Application** from the dropdown and then click **Finish**.
+
+    ![BTP Cockpit](/images/ex0/img-2.9.png) 
+
+6.  Click on the **Mobile Settings Exchange**, set **Lock Timeout** to 120 seconds. This value defines how long the application can be inactive before the user must re-enter his or her app passcode to continue using the application. 
+
+    ![BTP Cockpit](/images/ex0/img-2.11.png)
+
+
+### Download SAP Mobile Services Client on your device
+
+Download and install *SAP Mobile Services Client* on your Android or iOS device. 
+
+  Android             |  iOS
+:-------------------------:|:-------------------------:
+Scan the below QR code on your device to download the client on the Google Play ![MDK](/images/ex0/img-4.4.png) | Scan the below QR code on your device to download the client on the App Store ![MDK](/images/ex0/img-4.5.png)
+
+### Download SAP Mobile Start app on your mobile device
+
+## Summary
+
+You've now completed the pre-requisite to get started with the session exercises. 
+
+Continue to - [Exercise 1 - Deploy a CAP Business Service to SAP Business Technology Platform](../ex1/README.md)
