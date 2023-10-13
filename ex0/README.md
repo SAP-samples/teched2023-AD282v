@@ -1,6 +1,6 @@
 # Pre-Requisites
 
-**Before starting on the session exercises, please make sure that you have your BTP subaccount created in `US East (VA) - AWS [cf-us10]` region.**
+**Before starting** on the session exercises, please make sure that you have your BTP subaccount created in **`US East (VA) - AWS [cf-us10]`** region.
 
   ![BTP Cockpit](/images/ex0/img-0.png)
 
@@ -10,11 +10,9 @@
 | ------------------ | ------------------------------------------------ | -------------------------- | ------------------------------ |
 | 1                  | [Get a Free Account on SAP BTP Trial](https://developers.sap.com/tutorials/hcp-create-trial-account.html) | 15                    | Ensure you have created your subaccount in the `US East (VA) - AWS [cf-us10]` region      |
 | 2                  | [Add SAP HANA Cloud to your existing BTP trial](#add-sap-hana-cloud-to-your-existing-btp-trial)    | 15                         | Follow the provided guide if the entitlements are missing. |
-| 3                  | [Set Up SAP Business Application Studio for Development](https://developers.sap.com/tutorials/appstudio-onboarding.html) | 10          | You will create two spaces in upcoming exercises.  |
-| 4                  | [Set Up SAP Build Work Zone, standard edition & SAP Mobile Start App](https://developers.sap.com/mission.cp-starter-digitalexp-portal.html)      | 35-50                          | You can skip the [Add a URL App to Your Site](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-url-applaunchpad.html) if you prefer. |
-| 5                  | [Access SAP Mobile Services](https://developers.sap.com/tutorials/fiori-ios-hcpms-setup.html)       | 5                         | Review configuration steps.   |
-| 6                  | [Create Server Side App on SAP Mobile Services](#create-server-side-app-on-sap-mobile-services)       | 15                         | Review configuration steps.   |
-| 7                  | [Download SAP Mobile Services Client on your mobile device](#download-sap-mobile-services-client-on-your-mobile-device) | 5          | Check device compatibility.    |
+| 3                  | [Set Up SAP Business Application Studio for Development](https://developers.sap.com/tutorials/appstudio-onboarding.html) | 10          | You will create two dev spaces in upcoming exercises.  |
+| 4                  | [Access SAP Mobile Services](https://developers.sap.com/tutorials/fiori-ios-hcpms-setup.html)       | 5                         |    |
+| 5                  | [Download SAP Mobile Services Client on your mobile device](#download-sap-mobile-services-client-on-your-mobile-device) | 5          |     |
 
 
 ### Add SAP HANA Cloud to your existing BTP trial

@@ -7,6 +7,10 @@
 | [Exercise 4](../ex4/README.md) | [Conclusion](../Conclusion.md) |
 | | [ (Bonus) Exercise 6](../ex6/README.md) | 
 
+
+| 4                  | [Set Up SAP Build Work Zone, standard edition & SAP Mobile Start App](https://developers.sap.com/mission.cp-starter-digitalexp-portal.html)      | 35-50                          | You can skip the [Add a URL App to Your Site](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-url-applaunchpad.html) if you prefer. |
+
+
 ## Estimated time
 
 :clock4: 25 minutes
