@@ -1,28 +1,17 @@
-# Exercise 5 - Integrate with SAP Mobile Start
+# Exercise 4 - Integrate with SAP Mobile Start
 
 ## Navigation
-
 | Previous| Next |
 |---|---|
-| [Exercise 4](../ex4/README.md) | [Conclusion](../Conclusion.md) |
-| | [ (Bonus) Exercise 6](../ex6/README.md) | 
-
-
-| 4                  | [Set Up SAP Build Work Zone, standard edition & SAP Mobile Start App](https://developers.sap.com/mission.cp-starter-digitalexp-portal.html)      | 35-50                          | You can skip the [Add a URL App to Your Site](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-url-applaunchpad.html) if you prefer. |
-
-
-## Estimated time
-
-:clock4: 25 minutes
+| [Exercise 5](../ex4/README.md) | [Conclusion](../Conclusion.md) | 
 
 ## Objective
-
 The SAP Mobile Start app is your native entry point to SAP’s mobile universe. Discover how custom apps appear in SAP Mobile Start and can be launched. Experience SAP Mobile Start on your own mobile device.
 
-> **Please note:** Due to the limited time in the hands-on workshop, the required content in SAP Build Work Zone, standard edition has been pre-created for this session. You can check out further resources to learn more about how to expose such content to SAP Mobile Start on your own.
+## Estimated time
+:clock4: 25 minutes
 
 ## Exercise
-
 1. Open the [Site Manager](https://ad162-egls99xc.dt.launchpad.cfapps.eu10.hana.ondemand.com/sites#Site-Directory?sap-app-origin-hint=) of SAP Build Work Zone, standard edition in your browser.
 
    > **Please note:** As this environment is shared between all participants of this session, please do not change or delete content. Please use your own environment, for example using the [free tier of SAP BTP](https://discovery-center.cloud.sap/serviceCatalog/sap-build-work-zone-standard-edition/?region=all&tab=feature).
@@ -101,8 +90,6 @@ Learn more about SAP Mobile Start and how to expose content in the following two
 - XP161 - Develop Mobile Apps with SAP Build Apps, Access Them via SAP Mobile Start
 
 ## Navigation
-
 | Previous| Next |
 |---|---|
-| [Exercise 4](../ex4/README.md) | [Conclusion](../Conclusion.md) |
-| | [ (Bonus) Exercise 6](../ex6/README.md) | 
+| [Exercise 5](../ex4/README.md) | [Conclusion](../Conclusion.md) |

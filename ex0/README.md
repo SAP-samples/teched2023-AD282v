@@ -1,5 +1,4 @@
 # Pre-Requisites
-
 **Before starting** on the session exercises, please make sure that you have your BTP subaccount created in **`US East (VA) - AWS [cf-us10]`** region.
 
   ![BTP Cockpit](/images/ex0/img-0.png)
@@ -16,7 +15,6 @@
 
 
 ### Add SAP HANA Cloud to your existing BTP trial
-
 1. In the [SAP BTP trial account](https://account.hanatrial.ondemand.com/trial), navigate to your subaccount.
 
 2. Click on **Entitlements** on the left-hand side menu.
@@ -30,8 +28,7 @@
 
     ![BTP Cockpit](/images/ex0/img-1.1.png)
 
-    > **If you already have the required entitlements added in your trial account, continue with step 8 to create your trial instance of SAP HANA Cloud, SAP HANA database.
-    If you don't have the required entitlements in your trial account, continue with next step.**
+    > If you **already have the required entitlements** added in your trial account, continue with **step 8** to create your trial instance of SAP HANA Cloud, SAP HANA database.
 
 4. If you do not have any of the entitlements above, you need to add them to your account. Please follow the [**Deploy SAP HANA Cloud tutorial**](https://developers.sap.com/tutorials/hana-cloud-deploying.html) on developers.sap.com.
 
@@ -41,7 +38,6 @@
 
 
 ### Create Server Side App on SAP Mobile Services
-
 1. **Open** your SAP Mobile Services Admin UI.
 
     > Bookmark the **SAP Mobile Services Admin UI URL** for quick access as you will visit this page again for adding a destination. 
@@ -75,7 +71,6 @@
 
 
 ### Download SAP Mobile Services Client on your device
-
 Download and install *SAP Mobile Services Client* on your Android or iOS device. 
 
   Android             |  iOS
