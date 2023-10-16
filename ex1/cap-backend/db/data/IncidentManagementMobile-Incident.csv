@@ -1,0 +1,151 @@
+ID,Title,Description,Status,Urgency,DeviceID,DeviceImage,ResolutionSignatureImage,customer_ID,serviceWorker_ID
+30001,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,A1B2C3D4E5F6,,,1001,101
+30002,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,101
+30003,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,101
+30004,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,ABCDEF123456,,,1001,102
+30005,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,102
+30006,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,102
+30007,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,GHIJKL789012,,,1001,103
+30008,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,103
+30009,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,103
+30010,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,MNOPQR345678,,,1001,104
+30011,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,104
+30012,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,104
+30013,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,STUVWX901234,,,1001,105
+30014,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,105
+30015,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,105
+30016,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,YZ0123456789,,,1001,106
+30017,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,106
+30018,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,106
+30019,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,AABBCCDDEEFF,,,1001,107
+30020,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,107
+30021,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,107
+30022,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,GGHHIIJJKKLL,,,1001,108
+30023,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,108
+30024,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,108
+30025,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,MMNNOOPPQQRR,,,1001,109
+30026,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,109
+30027,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,109
+30028,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,SSSSTTTTUUVV,,,1001,110
+30029,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,110
+30030,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,110
+30031,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,WWXXYYZZ0011,,,1001,111
+30032,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,111
+30033,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,111
+30034,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,T23344556677,,,1001,112
+30035,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,112
+30036,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,112
+30037,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,889900AABBCC,,,1001,113
+30038,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,113
+30039,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,113
+30040,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,DDEEFFGGHHII,,,1001,114
+30041,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,114
+30042,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,114
+30043,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,JJKKLLMMNNOO,,,1001,115
+30044,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,115
+30045,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,115
+30046,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,PQQRRSSSTTUUVV,,,1001,116
+30047,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,116
+30048,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,116
+30049,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,WWXXYYZZ0011,,,1001,117
+30050,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,117
+30051,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,117
+30052,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,X23344556677,,,1001,118
+30053,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,118
+30054,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,118
+30055,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,889900AABBCC,,,1001,119
+30056,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,119
+30057,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,119
+30058,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,DDEEFFGGHHII,,,1001,120
+30059,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,120
+30060,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,120
+30061,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,JJKKLLMMNNOO,,,1001,121
+30062,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,121
+30063,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,121
+30064,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,PQQRRSSSTTUUVV,,,1001,122
+30065,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,122
+30066,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,122
+30067,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,WWXXYYZZ0011,,,1001,123
+30068,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,123
+30069,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,123
+30070,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,L23344556677,,,1001,124
+30071,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,124
+30072,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,124
+30073,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,889900AABBCC,,,1001,125
+30074,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,125
+30075,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,125
+30076,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,DDEEFFGGHHII,,,1001,126
+30077,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,126
+30078,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,126
+30079,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,SSSSTTTTUUVV,,,1001,127
+30080,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,127
+30081,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,127
+30082,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,WWXXYYZZ0011,,,1001,128
+30083,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,128
+30084,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,128
+30085,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,O23344556677,,,1001,129
+30086,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,129
+30087,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,129
+30088,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,889900AABBCC,,,1001,130
+30089,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,130
+30090,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,130
+30091,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,JJKKLLMMNNOO,,,1001,131
+30092,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,131
+30093,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,131
+30094,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,PQQRRSSSTTUUVV,,,1001,132
+30095,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,132
+30096,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,132
+30097,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,WWXXYYZZ0011,,,1001,133
+30098,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,133
+30099,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,133
+30100,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,F23344556677,,,1001,134
+30101,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,134
+30102,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,134
+30103,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,889900AABBCC,,,1001,135
+30104,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,135
+30105,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,135
+30106,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,DDEEFFGGHHII,,,1001,136
+30107,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,136
+30108,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,136
+30109,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,SSSSTTTTUUVV,,,1001,137
+30110,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,137
+30111,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,137
+30112,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,WWXXYYZZ0011,,,1001,138
+30113,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,138
+30114,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,138
+30115,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,M23344556677,,,1001,139
+30116,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,139
+30117,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,139
+30118,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,889900AABBCC,,,1001,140
+30119,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,140
+30120,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,140
+30121,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,AJKKLLMMNNOO,,,1001,141
+30122,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,141
+30123,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,141
+30124,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,AQQRRSSSTTUUVV,,,1001,142
+30125,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,142
+30126,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,142
+30127,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,AWXXYYZZ0011,,,1001,143
+30128,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,143
+30129,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,143
+30130,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,A23344556677,,,1001,144
+30131,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,144
+30132,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,144
+30133,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,B89900AABBCC,,,1001,145
+30134,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,145
+30135,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,145
+30136,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,BDEEFFGGHHII,,,1001,146
+30137,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,146
+30138,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,146
+30139,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,CSSSTTTTUUVV,,,1001,147
+30140,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,147
+30141,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,147
+30142,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,DWXXYYZZ0011,,,1001,148
+30143,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,148
+30144,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,148
+30145,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,E23344556677,,,1001,149
+30146,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,149
+30147,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,149
+30148,Computer Not Booting,Customer reports that their computer is not booting up.,Closed,Medium,F89900AABBCC,,,1001,150
+30149,TV Display Issue,Customer complains about a display issue with their TV.,In Process,High,,,,1002,150
+30150,Printer Connectivity Problem,Customer is experiencing issues with their printer's connectivity.,New,Low,,,,1003,150
