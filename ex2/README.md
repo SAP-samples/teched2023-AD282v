@@ -102,11 +102,9 @@ This exercise will guide you through configuring your back-end using SAP Mobile 
 
 6. Open Project Folder `teched2023-AD282v` &rarr; `ex2` &rarr; `MDKApp`
 
-    ![BAS Project Folder](images/img-3-6.png)
-
 ## Summary
 
-[Add summary here]
+In this exercise, you learned how to create a server-side application and adding a back-end service as a destination. You have also set up your mobile development space in SAP Business Application Studio.
 
 ## Navigation
 
