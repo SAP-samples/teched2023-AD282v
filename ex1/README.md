@@ -4,7 +4,8 @@
 
 | Previous| Next |
 |---|---|
-| [Overview](../README.md) | [Exercise 2](../ex2/README.md) | 
+| [Pre-Requisites](../ex0/README.md) |  | 
+| [Overview](../README.md) | [Exercise 2](../ex2/README.md) |
 
 ## Estimated time
 
@@ -26,4 +27,5 @@ In this exercise you'll learn how the structure of the back-end service that was
 
 | Previous| Next |
 |---|---|
-| [Overview](../README.md) | [Exercise 2](../ex2/README.md) | 
+| [Pre-Requisites](../ex0/README.md) |  | 
+| [Overview](../README.md) | [Exercise 2](../ex2/README.md) |

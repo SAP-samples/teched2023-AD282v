@@ -3,7 +3,8 @@
 ## Navigation
 | Previous| Next |
 |---|---|
-| [Exercise 4](../ex4/README.md) | [Exercise 6](../ex6/README.md) | 
+| [Exercise 4](../ex4/README.md) | [Conclusion](../Conclusion.md) | 
+|  | [Exercise 6](../ex6/README.md) | 
 
 ## Objective
 Incidents are assigned to a Technician by a call center support representative. At the start of their day, the technician commences work on these incidents while at the customer's location.
@@ -521,4 +522,5 @@ You've now successfully modified an incident entity.
 ## Navigation
 | Previous| Next |
 |---|---|
-| [Exercise 4](../ex4/README.md) | [Exercise 6](../ex6/README.md) | 
+| [Exercise 4](../ex4/README.md) | [Conclusion](../Conclusion.md) | 
+|  | [Exercise 6](../ex6/README.md) | 
