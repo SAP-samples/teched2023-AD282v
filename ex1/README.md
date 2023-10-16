@@ -9,9 +9,15 @@
 In this exercise, you'll learn how to deploy a back-end built using SAP Cloud Application Programming Model using SAP HANA Cloud to your BTP Trial account.
 
 ## Estimated Time
-:clock4: 15 minutes
+:clock4: 20 minutes
 
 ## Exercise
+| Sub Exercise | Title | Estimated Time (mins) |
+| --------------- | ----- | ------------------- |
+| [Exercise 1.1](#exercise-11---set-up-sap-business-application-studio-for-full-stack-development) | Set Up SAP Business Application Studio for Full Stack Development | 4 |
+| [Exercise 1.2](#exercise-12---configure-cloud-foundry-on-sap-business-application-studio) | Configure Cloud Foundry on SAP Business Application Studio | 4 |
+| [Exercise 1.3](#exercise-13---deploy-cloud-application-programming-model) | Deploy the first version of your mobile app | 10 |
+| [Exercise 1.4](#exercise-14---explore-back-end-service) | Explore Back-End Service | 2 |
 
 ### Exercise 1.1 - Set Up SAP Business Application Studio for Full Stack Development
 

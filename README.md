@@ -22,7 +22,7 @@ ACME is a popular electronics company. ACME hires call center support representa
 ## Exercises
 | Exercise Number | Title | Estimated Time (mins) |
 | --------------- | ----- | ------------------- |
-| [Exercise 1](ex1/README.md) | Deploy your SAP Cloud Application Programming Model back-end service | 15 |
+| [Exercise 1](ex1/README.md) | Deploy your SAP Cloud Application Programming Model back-end service | 20 |
 | [Exercise 2](ex2/README.md) | Configure your back-end on SAP Mobile Services | 15 |
 | [Exercise 3](ex3/README.md) | Deploy the first version of your mobile app | 10 |
 | [Exercise 4](ex4/README.md) | Modify your mobile app | 20 |
