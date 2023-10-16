@@ -1,0 +1,65 @@
+{
+	"ActionBar": {
+		"Items": [{
+			"IsIconCircular": false,
+			"OnPress": "/MDKApp/Actions/CloseModalPage_Complete.action",
+			"Position": "Right",
+			"SystemItem": "Done",
+			"Caption": "Done",
+			"Visible": true
+		}]
+	},
+	"Caption": "Settings",
+	"Controls": [{
+		"Sections": [{
+				"ContactCells": [{
+					"ContactCell": {
+						"ActivityItems": [{
+								"ActivityType": "Phone",
+								"ActivityValue": "/MDKApp/Globals/Application/SupportPhone.global"
+							},
+							{
+								"ActivityType": "Email",
+								"ActivityValue": "/MDKApp/Globals/Application/SupportEmail.global"
+							},
+							{
+								"ActivityType": "Message",
+								"ActivityValue": "/MDKApp/Globals/Application/SupportPhone.global"
+							}
+						],
+						"Headline": "Contact Support"
+					}
+				}],
+				"EmptySection": {
+					"FooterVisible": false
+				},
+				"_Name": "SectionContactCellTable1",
+				"_Type": "Section.Type.ContactCell"
+			},
+			{
+				"EmptySection": {
+					"FooterVisible": false
+				},
+				"Layout": {
+					"MinimumInteritemSpacing": 66,
+					"NumberOfColumns": 1
+				},
+				"SimplePropertyCells": [{
+					"SimplePropertyCell": {
+						"AccessoryType": "disclosureIndicator",
+						"KeyName": "Activity Log",
+						"OnPress": "/MDKApp/Actions/Application/NavToActivityLog.action",
+						"Visible": "$(PLT,true,true,false)"
+					}
+				}],
+				"_Name": "SectionSimplePropertyCollection0",
+				"_Type": "Section.Type.SimplePropertyCollection"
+			}
+		],
+		"_Name": "SectionedTable0",
+		"_Type": "Control.Type.SectionedTable"
+	}],
+	"_Name": "Settings",
+	"_Type": "Page",
+	"PrefersLargeCaption": true
+}

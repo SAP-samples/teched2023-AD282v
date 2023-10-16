@@ -1,0 +1,52 @@
+{
+	"Caption": "Activity Log",
+	"Controls": [{
+		"_Type": "Control.Type.SectionedTable",
+		"Sections": [{
+				"Controls": [{
+						"Caption": "Enable Logging",
+						"IsEditable": true,
+						"OnValueChange": "/MDKApp/Rules/Logging/ToggleLogging.js",
+						"Value": false,
+						"_Name": "EnableLogSwitch",
+						"_Type": "Control.Type.FormCell.Switch"
+					},
+					{
+						"AllowMultipleSelection": false,
+						"Caption": "Log Level",
+						"IsEditable": false,
+						"IsSearchEnabled": false,
+						"OnValueChange": "/MDKApp/Rules/Logging/SetUserLogLevel.js",
+						"PickerItems": "/MDKApp/Rules/Logging/LogLevels.js",
+						"_Name": "LogLevelListPicker",
+						"_Type": "Control.Type.FormCell.ListPicker",
+						"IsPickerDismissedOnSelection": true,
+						"AllowEmptySelection": false
+					}
+				],
+				"Visible": true,
+				"_Type": "Section.Type.FormCell",
+				"_Name": "FormCellSection0"
+			},
+			{
+				"Controls": [{
+					"OnPress": "/MDKApp/Actions/Logging/UploadLogProgress.action",
+					"Alignment": "Center",
+					"Title": "Send Activity Log",
+					"_Name": "Send",
+					"_Type": "Control.Type.FormCell.Button",
+					"ButtonType": "Text",
+					"Semantic": "Tint"
+				}],
+				"Visible": true,
+				"_Type": "Section.Type.FormCell",
+				"_Name": "FormCellSection1"
+			}
+		],
+		"_Name": "SectionedTable0"
+	}],
+	"OnLoaded": "/MDKApp/Rules/Logging/UserLogSetting.js",
+	"_Name": "UserActivityLog",
+	"_Type": "Page",
+	"PrefersLargeCaption": true
+}
