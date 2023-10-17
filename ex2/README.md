@@ -24,21 +24,25 @@ This exercise will guide you through configuring your back-end using SAP Mobile 
 
     ![Mobile Services Market Place on BTP](images/img-1-1.png)
 
-2. Click "Create New App" on the Home Screen.
+2. Add the extended landscape API Endpoint.
 
-    ![Create New App on MS](images/img-1-2.png)
+    ![Extended Landscape MS](images/img-1-2.png)
 
-3. In the Basic Info step of the New Application Wizard, enter the following details and click "Next":
+3. Click "Create New App" on the Home Screen.
+
+    ![Create New App on MS](images/img-1-3.png)
+
+4. In the Basic Info step of the New Application Wizard, enter the following details and click "Next":
    - ID: `com.sap.mdk.demo`
    - Name: `SAP MDK Demo App`
 
-    ![Basic Info Step](images/img-1-3.png)
+    ![Basic Info Step](images/img-1-4.png)
 
-4. Keep the default settings in the Security Settings step and click "Next".
+5. Keep the default settings in the Security Settings step and click "Next".
 
-5. Disable Role Settings in the Role Settings step and click "Next".
+6. Disable Role Settings in the Role Settings step and click "Next".
 
-6. In the Assign Features step, select "Mobile Development Kit Application" from the dropdown and click "Finish".
+7. In the Assign Features step, select "Mobile Development Kit Application" from the dropdown and click "Finish".
 
     > You can ignore any pop-ups and proceed by clicking "OK".
 
@@ -101,6 +105,8 @@ This exercise will guide you through configuring your back-end using SAP Mobile 
    ![Git Clone URL](images/img-3-5.png)
 
 6. Open Project Folder `teched2023-AD282v` &rarr; `ex2` &rarr; `MDKApp`
+
+   ![GMDK Folder Path](images/img-3-6.png)
 
 ## Summary
 
