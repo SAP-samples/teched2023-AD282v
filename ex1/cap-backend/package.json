@@ -1,0 +1,33 @@
+{
+  "name": "MobileIncidentManagement",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^7",
+    "@sap/cds-hana": "^2",
+    "@sap/xssec": "^3",
+    "express": "^4",
+    "passport": "^0"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1",
+    "@sap/cds-dk": "^7"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "build": "cds build --production && npm run fix-hdi-deploy",
+    "fix-hdi-deploy": "npm i @sap/hdi-deploy@v4.8.0 --save --save-exact --prefix gen/db"
+  },
+  "cds": {
+    "requires": {
+      "db": "hana",
+      "auth": {
+        "kind": "jwt",
+        "restrict_all_services": false
+      }
+    }
+  }
+}

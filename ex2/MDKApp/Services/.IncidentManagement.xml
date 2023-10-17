@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml">
+        <edmx:Include Alias="Common" Namespace="com.sap.vocabularies.Common.v1"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Core.V1.xml">
+        <edmx:Include Alias="Core" Namespace="Org.OData.Core.V1"/>
+    </edmx:Reference>
+    <edmx:DataServices>
+        <Schema Namespace="IncidentManagementMobileService" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+            <EntityContainer Name="EntityContainer">
+                <EntitySet Name="Customer" EntityType="IncidentManagementMobileService.Customer">
+                    <NavigationPropertyBinding Path="hasIncidents" Target="Incident"/>
+                </EntitySet>
+                <EntitySet Name="Incident" EntityType="IncidentManagementMobileService.Incident">
+                    <NavigationPropertyBinding Path="customer" Target="Customer"/>
+                    <NavigationPropertyBinding Path="serviceWorker" Target="ServiceWorker"/>
+                </EntitySet>
+                <EntitySet Name="ServiceWorker" EntityType="IncidentManagementMobileService.ServiceWorker">
+                    <NavigationPropertyBinding Path="hasIncidents" Target="Incident"/>
+                </EntitySet>
+            </EntityContainer>
+            <EntityType Name="Customer">
+                <Key>
+                    <PropertyRef Name="ID"/>
+                </Key>
+                <Property Name="ID" Type="Edm.Int64" Nullable="false"/>
+                <Property Name="FirstName" Type="Edm.String" MaxLength="100" Nullable="false"/>
+                <Property Name="LastName" Type="Edm.String" MaxLength="100" Nullable="false"/>
+                <Property Name="Email" Type="Edm.String" MaxLength="100"/>
+                <Property Name="Phone" Type="Edm.String" MaxLength="100"/>
+                <Property Name="AddressHouseNumber" Type="Edm.String" MaxLength="100"/>
+                <Property Name="AddressStreet" Type="Edm.String" MaxLength="100"/>
+                <Property Name="AddressCity" Type="Edm.String" MaxLength="100"/>
+                <Property Name="AddressCountry" Type="Edm.String" MaxLength="100"/>
+                <Property Name="AddressPostcode" Type="Edm.String" MaxLength="100"/>
+                <NavigationProperty Name="hasIncidents" Type="Collection(IncidentManagementMobileService.Incident)" Partner="customer"/>
+            </EntityType>
+            <EntityType Name="Incident">
+                <Key>
+                    <PropertyRef Name="ID"/>
+                </Key>
+                <Property Name="ID" Type="Edm.Int64" Nullable="false"/>
+                <Property Name="Title" Type="Edm.String" MaxLength="100"/>
+                <Property Name="Description" Type="Edm.String" MaxLength="100"/>
+                <Property Name="Status" Type="Edm.String" MaxLength="100"/>
+                <Property Name="Urgency" Type="Edm.String" MaxLength="100"/>
+                <Property Name="DeviceID" Type="Edm.String" MaxLength="100"/>
+                <Property Name="DeviceImage" Type="Edm.Stream"/>
+                <Property Name="ResolutionSignatureImage" Type="Edm.Stream"/>
+                <Property Name="imageType" Type="Edm.String"/>
+                <NavigationProperty Name="customer" Type="IncidentManagementMobileService.Customer" Partner="hasIncidents">
+                    <ReferentialConstraint Property="customer_ID" ReferencedProperty="ID"/>
+                </NavigationProperty>
+                <Property Name="customer_ID" Type="Edm.Int64"/>
+                <NavigationProperty Name="serviceWorker" Type="IncidentManagementMobileService.ServiceWorker" Partner="hasIncidents">
+                    <ReferentialConstraint Property="serviceWorker_ID" ReferencedProperty="ID"/>
+                </NavigationProperty>
+                <Property Name="serviceWorker_ID" Type="Edm.Int64"/>
+            </EntityType>
+            <EntityType Name="ServiceWorker">
+                <Key>
+                    <PropertyRef Name="ID"/>
+                </Key>
+                <Property Name="ID" Type="Edm.Int64" Nullable="false"/>
+                <Property Name="FirstName" Type="Edm.String" MaxLength="100" Nullable="false"/>
+                <Property Name="LastName" Type="Edm.String" MaxLength="100" Nullable="false"/>
+                <Property Name="Email" Type="Edm.String" MaxLength="100" Nullable="false"/>
+                <Property Name="Phone" Type="Edm.String" MaxLength="100"/>
+                <NavigationProperty Name="hasIncidents" Type="Collection(IncidentManagementMobileService.Incident)" Partner="serviceWorker"/>
+            </EntityType>
+            <Annotations Target="IncidentManagementMobileService.Incident/DeviceImage">
+                <Annotation Term="Core.MediaType" Path="imageType"/>
+            </Annotations>
+            <Annotations Target="IncidentManagementMobileService.Incident/ResolutionSignatureImage">
+                <Annotation Term="Core.MediaType" Path="imageType"/>
+            </Annotations>
+            <Annotations Target="IncidentManagementMobileService.Incident/imageType">
+                <Annotation Term="Core.IsMediaType" Bool="true"/>
+            </Annotations>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

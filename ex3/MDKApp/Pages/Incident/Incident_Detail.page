@@ -1,0 +1,91 @@
+{
+	"Caption": "Incident Detail",
+	"DesignTimeTarget": {
+		"Service": "/MDKApp/Services/IncidentManagement.service",
+		"EntitySet": "Incident",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": [
+			
+			{
+				"OnPress": "/MDKApp/Actions/Incident/Incident_OpenDocument.action",
+				"Position": "Right",
+				"Caption": "Open Device Image",
+				"Visible": "/MDKApp/Rules/Incident/ShowDeviceImageActionbarItem.js"
+			}
+		
+		]
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Tags": [],
+						"DetailImage": "/MDKApp/Services/IncidentManagement.service/{@odata.readLink}/DeviceImage",
+						"HeadlineText": "{Title}",
+						"Subhead": "{ID}",
+						"BodyText": "",
+						"Footnote": "{Status}",
+						"Description": "{Description}",
+						"StatusText": "{Urgency}",
+						"StatusImage": "",
+						"SubstatusImage": "",
+						"SubstatusText": "{DeviceID}",
+						"DetailImageIsCircular": true
+					},
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "ID",
+							"Value": "{ID}"
+						},
+						{
+							"KeyName": "Title",
+							"Value": "{Title}"
+						},
+						{
+							"KeyName": "Description",
+							"Value": "{Description}"
+						},
+						{
+							"KeyName": "Status",
+							"Value": "{Status}"
+						},
+						{
+							"KeyName": "Urgency",
+							"Value": "{Urgency}"
+						},
+						{
+							"KeyName": "DeviceID",
+							"Value": "{DeviceID}"
+						},
+						{
+							"KeyName": "customer_ID",
+							"Value": "{customer_ID}"
+						},
+						{
+							"KeyName": "serviceWorker_ID",
+							"Value": "{serviceWorker_ID}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"DataSubscriptions": [],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Incident_Detail",
+	"PrefersLargeCaption": true
+}
