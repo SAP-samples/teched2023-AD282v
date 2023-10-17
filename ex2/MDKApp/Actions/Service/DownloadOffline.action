@@ -1,0 +1,22 @@
+{
+    "Service": "/MDKApp/Services/IncidentManagement.service",
+    "DefiningRequests": [{
+            "Name": "Customer",
+            "Query": "Customer"
+        },
+        {
+            "Name": "Incident",
+            "Query": "Incident"
+        },
+        {
+            "Name": "ServiceWorker",
+            "Query": "ServiceWorker"
+        }
+    ],
+    "_Type": "Action.Type.OfflineOData.Download",
+    "ActionResult": {
+        "_Name": "sync"
+    },
+    "OnFailure": "/MDKApp/Actions/Service/SyncFailureMessage.action",
+    "OnSuccess": "/MDKApp/Rules/ErrorArchive/ErrorArchive_CheckForSyncError.js"
+}
