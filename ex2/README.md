@@ -57,7 +57,7 @@ This exercise will guide you through configuring your back-end using SAP Mobile 
     ![Create Destination](images/img-2-1.png)
 
 3. In the Basic Info step of the Create Destination Wizard, enter the following details and click "Next":
-   - ID: `cap.incident.management`
+   - ID: `IncidentManagement`
    - Name: `<Domain>/service/IncidentManagementMobile`
 
     ![Basic Info Step](images/img-2-3.png)
