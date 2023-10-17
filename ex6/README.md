@@ -11,83 +11,110 @@ The SAP Mobile Start app is your native entry point to SAP’s mobile universe. 
 ## Estimated time
 :clock4: 25 minutes
 
-## Exercise
-1. Open the [Site Manager](https://ad162-egls99xc.dt.launchpad.cfapps.eu10.hana.ondemand.com/sites#Site-Directory?sap-app-origin-hint=) of SAP Build Work Zone, standard edition in your browser.
 
-   > **Please note:** As this environment is shared between all participants of this session, please do not change or delete content. Please use your own environment, for example using the [free tier of SAP BTP](https://discovery-center.cloud.sap/serviceCatalog/sap-build-work-zone-standard-edition/?region=all&tab=feature).
+### Exercise 6.1 - Set Up SAP Build Work Zone, standard edition Using a Trial Account
 
-2. You can find a pre-created Site `AD162` in the Site Directory overview. Click on the **gear** icon to check the details.
+1. Follow the [**Set Up SAP Build Work Zone, standard edition Using a Trial Account tutorial**](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-getting-started.html) on developers.sap.com. 
 
-   <p align="center">
-      <img src="./images/5_site_manager.png" width="100%" />
-   </p>
+### Exercise 6.2 - Create a Site Using SAP Build Work Zone, standard edition
 
-3. On the right handside, you can observe content of an S/4HANA system for the **Purchaser** business role has been added by your instructors for this course.
+1. Follow the [**Create a Site Using SAP Build Work Zone, standard edition tutorial**](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-create-sitelaunchpad.html) on developers.sap.com. 
 
-   <p align="center">
-      <img src="./images/5_site_content.png" width="100%" />
-   </p>
+### Exercise 6.3 - Add a URL App to Your Site
 
-4. Go back and navigate now to the **Content Manager** on the left side of the Site Manager.
+1. Click the Content Manager icon in the side panel to open the Content Manager.
 
-   <p align="center">
-      <img src="./images/5_content_manager.png" width="100%" />
-   </p>
+      ![Content Manager](images/img-3-1.png)
 
-5. Here you can observe, two native apps have been created in order to represent your Pro-code native app both for iOS and Android.
+2. Click Create and select App from the list.
 
-   <p align="center">
-      <img src="./images/5_apps.png" width="100%" />
-   </p>
+      ![New App for iOS on WZ](images/img-3-2.png)
 
-6. Go back to the **Site Directory** and launch the prepared Site using the **launch** icon
+3. In the header of the app editor, enter a title `My Incidents` and description `My Incidents App for iOS`.
 
-   <p align="center">
-      <img src="./images/5_launch_site.png" width="100%" />
-   </p>
+      ![iOS App Title](images/img-3-3.png)
 
-7. On the Site you can already see some business apps in your browser. Go to **Profile** and open the **Settings** on the top left.
+4. Under the Configuration tab, enter the following values:
+      - Open App: `In Place`
+      - System: `No System`
+      - App UI Technology: `Native iOS`
+      - URL to Launch App: `sapmobilesvcs://`
+      - URL to Install App: `https://apps.apple.com/de/app/sap-mobile-services-client/id1413653544`
 
-   <p align="center">
-      <img src="./images/5_settings.png" width="100%" />
-   </p>
+      ![iOS App Tile Config](images/img-3-4.png)
 
-8. Navigate to the section **SAP Mobile Start Application** and select **Register** to show the QR-Code which can be used for onboarding.
+5. Under the Navigation tab, enter the following values, and click Save.
+      - Semantic Object: `mdkios`
+      - Action: `launch`
+
+      ![iOS App Tile Save](images/img-3-5.png)
+
+6. Click Create and select App from the list.
+
+      ![New App for Android on WZ](images/img-3-6.png)
+
+7. In the header of the app editor, enter a title `My Incidents` and description `My Incidents App for Android`.
+
+      ![Android App Title](images/img-3-7.png)
+
+8. Under the Configuration tab, enter the following values:
+      - Open App: `In Place`
+      - System: `No System`
+      - App UI Technology: `Native Android`
+      - URL to Launch App: `sapmobilesvcs://`
+      - URL to Install App: `https://play.google.com/store/apps/details?id=com.sap.mobileservices.client`
+
+      ![Android App Tile Config](images/img-3-8.png)
+
+9.  Under the Navigation tab, enter the following values, and click Save.
+      - Semantic Object: `mdkandroid`
+      - Action: `launch`
+
+      ![Android App Tile Save](images/img-3-9.png)
+
+### Exercise 6.4 - Assign App Roles
+
+1. Click Everyone
+
+      ![Everyone Role](images/img-4-1.png)
+
+2. Click Edit
+
+      ![Everyone Role Edit](images/img-4-2.png)
+
+3. Enable the Assignment Status for the apps you created previously, and click Save.
+
+      ![Assignment Status for Apps](images/img-4-3.png)
+
+
+### Exercise 6.5 - Access Your Launchpad Site with SAP Mobile Start
+
+1. Go back to the **Site Directory** and launch the prepared Site using the **launch** icon
+
+      ![Site Launch](images/img-5-1.png)
+
+2. On the Site, go to **Profile** and open the **Settings** on the top left.
+
+      ![Site Launch](images/img-5-2.png)
+
+3. Navigate to the section **SAP Mobile Start Application** and select **Register** to show the QR-Code which can be used for onboarding.
    
-   <p align="center">
-      <img src="./images/5_qr.png" width="100%" />
-   </p>
+   ![Site Launch](images/img-5-3.png)
 
-9. Open **SAP Mobile Start** on your mobile phone. If you don't have it yet, install it from the App Store or Google Play. You can use the following installation QRs to find it faster:
+4. Open **SAP Mobile Start** on your mobile phone. If you don't have it yet, install it from the App Store or Google Play. You can use the following installation QRs to find it faster:
 
-   <p align="center">
-      <img src="./images/download.png" width="100%" />
-   </p>
+   ![Site Launch](images/img-5-4.png)
 
-10. After agreeing to the end user license agreement and the privacy policy, tap on the **Scan** button in SAP Mobile Start.
+5.  Complete the onboarding process by providing your SAP BTP Trial credentials, setting a passcode and granting the necessary privileges.
 
-   <p align="center">
-      <img src="./images/5_scan.png" width="50%" />
-   </p>
+6.  Tap on the **Apps** tab at the bottom tab bar. You can see the app integrating our mobile app built in this course under the section **AD162 Apps**
 
-11. You will be asked to login with your provided credentials. Use the email address in the format `ad162-0##@education.cloud.sap` (replacing `##` with your number) and the password.
 
-12. Tap on the **Apps** tab at the bottom tab bar. You can see the app integrating our mobile app built in this course under the section **AD162 Apps**
-
-   <p align="center">
-      <img src="./images/5_mobile_start_app.jpeg" width="50%" />
-   </p>
-
-12. Tapping on it will launch the **Mobile Services Client** in order to try out your app. If it is not yet installed, you will be redirected to the App Store or Google Play.
+7.  Tapping on it will launch the **Mobile Services Client** in order to try out your app. If it is not yet installed, you will be redirected to the App Store or Google Play.
 
 ## Summary
 
-You have learned how content integrated into SAP Build Work Zone, standard edition will appear in SAP Mobile Start. You experienced launching a native app from Mobile Start and how other example business content from S/4HANA can build the foundation for the native entry point to SAP’s mobile universe. Such content can be coming from Content Providers like S/4HANA or be customly built and integrated suiting your needs.
-
-Learn more about SAP Mobile Start and how to expose content in the following two hands-on workshops of TechEd 2023:
-
-- DT162 - Learn How to Set Up and Configure SAP Mobile Start with SAP S/4HANA
-- XP161 - Develop Mobile Apps with SAP Build Apps, Access Them via SAP Mobile Start
+You have learned how content integrated into SAP Build Work Zone, standard edition will appear in SAP Mobile Start. You experienced launching a native app from Mobile Start.
 
 ## Navigation
 | Previous| Next |
