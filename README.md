@@ -1,34 +1,25 @@
 # AD282v - Master Mobile Application Development with Pro-Code Tools on SAP BTP
 
 ## Description
-Accelerate development by using SAP Build Code to consume a SAP Cloud Application Programming (CAP) Model service for mobile development. Build a native, cross-platform mobile application using mobile development kit and bring all of your work together on the SAP Mobile Start app - the launchpad for mobile apps from SAP.
+Accelerate development by using SAP Build Code to consume a SAP Cloud Application Programming (CAP) Model service for mobile development. Build a native, cross-platform mobile application using mobile development kit from SAP.
 
 ## Requirements
-To complete the session exercises below, please first review the [pre-requisites](exercises/ex0/README.md).
+To complete the session exercises below, please first review the [pre-requisites](https://developers.sap.com/group.mobile-dev-kit-setup.html).
 
 ## Use Case
-ACME is a popular electronics company. ACME hires call center support representatives to process and manage customer incidents. A call center support representative (Processor) receives a phone call from an existing customer and creates a new incident on behalf of the customer. ACME employs service workers who use mobile apps to view and process these incidents.
+Build a Customer list from scratch based on an OData Service. Allow also searching customers based on QR code.
 
-### Incident Resolution
-- Anna, a technician, uses the ACME Technician Incident Management app.
-- Anna views the tasks assigned to her.
-- Anna selects a task to view the details.
-- Anna travels to Mary's location for on-site service.
-- After fixing the issue, Anna uploads a resolution image.
-- Anna requests Mary's digital signature for closing the incident.
-- As a traveling technician, Anna accesses payroll and organizational news via the SAP Mobile Start app.
-- She easily launches the Incident Management app from SAP Mobile Start.
 
 ## Exercises
 | Exercise Number | Title | Estimated Time (mins) |
 | --------------- | ----- | ------------------- |
-| [Exercise 1](ex1/README.md) | Deploy your SAP Cloud Application Programming Model back-end service | 20 |
-| [Exercise 2](ex2/README.md) | Configure your back-end on SAP Mobile Services | 15 |
-| [Exercise 3](ex3/README.md) | Deploy the first version of your mobile app | 10 |
-| [Exercise 4](ex4/README.md) | Modify your mobile app | 20 |
-| [Exercise 5](ex5/README.md) | Elevate your mobile app | 25 |
+| [Exercise 1](https://developers.sap.com/group.mobile-dev-kit-setup.html) | Set Up for the Mobile Development Kit (MDK) | 20 |
+| [Exercise 2](https://developers.sap.com/tutorials/cp-mobile-dev-kit-offline-app.html) | Start Your MDK Application in the Editor | 20 |
+| [Exercise 3](https://developers.sap.com/tutorials/cp-mobile-dev-kit-list-page.html) | Create a Customer List Page in an MDK App | 10 |
+| [Exercise 4](https://developers.sap.com/tutorials/cp-mobile-dev-kit-detail-page.html) | Create a Customer Detail Page in an MDK App | 20 |
+| [Exercise 5](https://developers.sap.com/tutorials/cp-mobile-dev-kit-edit-customer.html) | Modify a Customer Record in an MDK App | 20 |
 | Optional Exercise ↓ |       |                     |
-| [Exercise 6](ex6/README.md) | Integrate with SAP Mobile Start | 75 |
+| [Exercise 6](https://developers.sap.com/tutorials/cp-mobile-dev-kit-add-validation.html) | Define a Validation Rule in an MDK App | 75 |
 
 ## How to obtain support
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
