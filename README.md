@@ -7,8 +7,9 @@ Accelerate development by using SAP Build Code to consume a SAP Cloud Applicatio
 To complete the session exercises below, please first review the [pre-requisites](https://developers.sap.com/group.mobile-dev-kit-setup.html).
 
 ## Use Case
-Build a Customer list from scratch based on an OData Service. Allow also searching customers based on QR code.
+Build a Customer list from scratch based on an OData Service. Allow also searching customers based on QR code and edit some of the fields on the mobile app.
 
+![](images/QRcode.png)
 
 ## Exercises
 | Exercise Number | Title | Estimated Time (mins) |
