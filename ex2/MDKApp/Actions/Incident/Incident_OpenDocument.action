@@ -1,5 +1,0 @@
-{
-    "_Type": "Action.Type.OpenDocument",
-    "Path": "/MDKApp/Services/IncidentManagement.service/{@odata.readLink}/DeviceImage",
-    "MimeType": "image/jpeg"
-}

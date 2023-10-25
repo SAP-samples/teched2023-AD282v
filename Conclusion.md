@@ -2,13 +2,13 @@
 
 You're a :star: 
 
-![Race Finish](./images/img-1.jpg)
+![Race Finish](./assets/images/img-3.jpg)
 
 Congratulations on successfully completing AD162. We hope you enjoyed the session. We are eager to witness the apps you will build using your new learning.
 
 Enjoy the rest of SAP TechEd 2023.
 
-![ADAI More Learning](./images/img-2.png)
+![ADAI More Learning](./assets/images/img-4.png)
 
 ## Navigation
 
