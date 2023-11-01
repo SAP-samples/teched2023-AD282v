@@ -9,7 +9,7 @@ To complete the session exercises below, please first review the [pre-requisites
 ## Use Case
 Build a Customer list from scratch based on an OData Service. Allow also searching customers based on QR code and edit some of the fields on the mobile app.
 
-![](images/QRcode.png)
+![](images/qr.jpg)
 
 ## Exercises
 | Exercise Number | Title | Estimated Time (mins) |
