@@ -33,6 +33,8 @@ Support for the content in this repository is available during the actual time o
 
 - Check out the SAP Community for [Mobile Development](https://community.sap.com/topics/mobile-technology) & [Mobile Experience](https://community.sap.com/topics/mobile-experience).
 
+- Central Start point for Developers is [Mobile Documentation](https://help.sap.com/doc/f53c64b93e5140918d676b927a3cd65b/Cloud/en-US/docs-en/index.html).
+  
 - Learn more about SAP Cloud Application Programming Model by [visiting the official documentation](https://cap.cloud.sap/docs/) and [with these additional resources](https://cap.cloud.sap/docs/resources/).
 
 ## License
