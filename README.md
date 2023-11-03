@@ -15,7 +15,7 @@ Build a Customer list from scratch based on an OData Service. Also, allow search
 | --------------- | -----------------------------------------------| ------------------- |
 | [Exercise 1](https://developers.sap.com/group.mobile-dev-kit-setup.html) | Set Up for the Mobile Development Kit (MDK) | 20 |
 | [Exercise 2](https://developers.sap.com/tutorials/cp-mobile-dev-kit-offline-app.html) | Start Your MDK Application in the Editor | 15 |
-| [Exercise 3](https://developers.sap.com/tutorials/cp-mobile-dev-kit-list-page.html) | Create a Customer List Page in an MDK App <br> ![QR Code to Scan](images/qr.jpg)| 10 |
+| [Exercise 3](https://developers.sap.com/tutorials/cp-mobile-dev-kit-list-page.html) | Create a Customer List Page in an MDK App <br>  <img src="images/qr.jpg" alt="QR Code to Scan" width="200"/>| 10 |
 | [Exercise 4](https://developers.sap.com/tutorials/cp-mobile-dev-kit-detail-page.html) | Create a Customer Detail Page in an MDK App | 20 |
 | [Exercise 5](https://developers.sap.com/tutorials/cp-mobile-dev-kit-edit-customer.html) | Modify a Customer Record in an MDK App | 25 |
 | Optional Exercise ↓ |                                                 |                     |
