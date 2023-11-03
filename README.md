@@ -22,8 +22,6 @@ Build a Customer list from scratch based on an OData Service. Also, allow search
 | [Exercise 6](https://developers.sap.com/tutorials/cp-mobile-dev-kit-add-validation.html) | Define a Validation Rule in an MDK App | 10 |
 
 
-![](images/qr.jpg)
-
 
 ## How to obtain support
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
