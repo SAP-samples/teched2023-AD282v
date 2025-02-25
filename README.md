@@ -1,3 +1,6 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-AD282v)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-AD282v)
+
+
 # AD282v - Master Mobile Application Development with Pro-Code Tools on SAP BTP
 
 ## Description
